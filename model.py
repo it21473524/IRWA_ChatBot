@@ -21,4 +21,5 @@ class NeutralNet(nn.Module):
 
         out = self.l3(out)
         # no activation and no softmax at the end
+        
         return out
