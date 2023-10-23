@@ -1,0 +1,143 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+  
+    {
+      "tag": "items",
+      "patterns": [
+        "What products do you sell?",
+        "Tell me about your clothing collection.",
+        "What's in stock?"
+      ],
+      "responses": [
+        "We offer a wide range of clothing for all ages, from stylish dresses to comfortable casual wear.",
+        "Our clothing collection includes everything from trendy apparel to classic wardrobe essentials.",
+        "You'll find a variety of clothing options in our store. How can I assist you further?"
+      ]
+    },
+    {
+      "tag": "kids_clothing",
+      "patterns": [
+        "Show me kids' clothing",
+        "What do you have for children?",
+        "Kids' fashion"
+      ],
+      "responses": [
+        "We have a fantastic selection of kids' clothing. From cute baby onesies to fashionable outfits for older children, we've got it all.",
+        "Our kids' collection includes clothing for various age groups, so you can find the perfect style for your child.",
+        "Kids' fashion is a highlight of our store. What's your child's age, and I can suggest some options?"
+      ]
+    },
+    
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "Where is my order #123456?",
+        "Can you provide the status of my recent purchase?",
+        "How can I track my delivery?"
+      ],
+      "responses": [
+        "I can assist you with order tracking. Please share your order number, and I'll check the status for you.",
+        "Of course! I'll need your order number or relevant details to look up your recent purchase. Please provide the necessary information.",
+        "Tracking your delivery is easy. Just provide your order number, and I'll fetch the current status for you. If you have the order number handy, please share it with me."
+      ]
+    },
+    
+  
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": [
+        "Can you recommend a dress for a formal event?",
+        "I need a casual outfit for the weekend. Any suggestions?",
+        "What's a popular item for summer?"
+      ],
+      "responses": [
+        "Certainly! For a formal event, I recommend our elegant 'Evening Elegance' dress. It's perfect for special occasions.",
+        "Looking for a casual weekend outfit? Check out our 'Weekend Chic' collection for relaxed and stylish options.",
+        "Our 'Summer Splash' collection is all the rage for sunny days. Explore our summer essentials for the latest trends."
+      ]
+    },
+    {
+      "tag": "product_details",
+      "patterns": [
+        "Tell me more about the 'Classic Denim Jeans.'",
+        "What sizes are available for the 'Comfy Sweater'?",
+        "Do you have 'Cotton T-shirts' in various colors?"
+      ],
+      "responses": [
+        "The 'Classic Denim Jeans' are a timeless choice with a comfortable fit and durable denim fabric. They're available in sizes S, M, L, and XL.",
+        "Our 'Comfy Sweater' is available in sizes XS to XXL, ensuring the perfect fit for everyone.",
+        "Yes, our 'Cotton T-shirts' come in a wide range of colors, including black, white, gray, blue, and more. You'll find the color that suits your style."
+      ]
+    },
+    {
+      "tag": "promotion",
+      "patterns": [
+        "Are there any ongoing promotions or discounts?",
+        "Tell me about your loyalty program.",
+        "Do you offer student discounts?"
+      ],
+      "responses": [
+        "Yes, we currently have a 'Spring Savings' promotion, offering 20% off on selected items. Don't miss out!",
+        "Our loyalty program rewards you with exclusive discounts and early access to sales. You'll earn points with every purchase.",
+        "We appreciate students! Enjoy a 15% discount on your purchase with a valid student ID."
+      ]
+    }
+  ]
+}
