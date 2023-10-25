@@ -4,6 +4,7 @@ import torch
 
 from model import NeutralNet  # Import your NeuralNet model from model.py
 from nltk_utils import bag_of_words, tokenize
+from mongodb import itemsPrice,itemsColors
 
 # Check if a CUDA-compatible GPU is available, otherwise use CPU
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -45,6 +46,12 @@ def get_response(msg):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
     if prob.item() > 0.75:
+
+        if tag == "price":
+            return(f"The prices are {itemsPrice()}")
+        if tag == "item_color":
+            return(itemsColors())
+        
         # If the confidence is high, randomly select and print a response from the intents data
         for intent in intents['intents']:
             if tag == intent["tag"]:

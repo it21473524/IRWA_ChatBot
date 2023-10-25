@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=E:\project\IRWA_ChatBot\.venv
+set VIRTUAL_ENV=C:\Users\ARUNI\Downloads\IRWA_ChatBot\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

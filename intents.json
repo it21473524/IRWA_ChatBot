@@ -138,6 +138,34 @@
         "Our loyalty program rewards you with exclusive discounts and early access to sales. You'll earn points with every purchase.",
         "We appreciate students! Enjoy a 15% discount on your purchase with a valid student ID."
       ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "How much does this cost?",
+        "What's the price?",
+        "Can you tell me the cost?",
+        "Price of dress"
+      ],
+      "responses": [
+        "The price of [item_name] is [item_price].",
+        "You can get [item_name] for [item_price].",
+        "The cost of [item_name] is [item_price]."
+      ]
+    },
+    {
+      "tag": "item_color",
+      "patterns": [
+        "What colors are available for dress?",
+        "Tell me the available colors of short.",
+        "Can I get dress in different colors?",
+        "Color options for shart"
+      ],
+      "responses": [
+        "You can get [item_name] in various colors, including [item_colors].",
+        "[item_name] is available in [item_colors].",
+        "The colors for [item_name] include [item_colors]."
+      ]
     }
   ]
 }
